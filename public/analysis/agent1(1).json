@@ -1,0 +1,603 @@
+{
+  "agent": "Agent 1",
+  "independent": true,
+  "reviewStatus": "AI proposals only; student certification pending",
+  "materialDecisionCount": 25,
+  "materialJudgments": [
+    {
+      "id": "D041",
+      "aiProposal": "Recognize EUR90,000 as customer contract liabilities, not August revenue.",
+      "evidence": [
+        "04 p2 NB-SEP and FF-SEP",
+        "02 DEP-NB and DEP-FF2"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "effectBasis": "Correction relative to management booking both receipts as revenue; overlaps D068.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D042",
+      "aiProposal": "Recognize EUR50,000 new borrowing as debt and financing receipt.",
+      "evidence": [
+        "09 p1",
+        "02 LOAN-ADV"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -50000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 50000,
+        "equity": -50000
+      },
+      "effectBasis": "Reclassify management strategic income to loan; cash already recorded.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D043",
+      "aiProposal": "Capitalize packaging machine EUR60,000; in use 10 May.",
+      "evidence": [
+        "06 p2 A-910",
+        "08 Assets"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 60000,
+        "cash": 0,
+        "assets": 60000,
+        "liabilities": 0,
+        "equity": 60000
+      },
+      "effectBasis": "Correction from full repair expense before depreciation; aggregate depreciation separately D074.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D044",
+      "aiProposal": "Capitalize photo booth EUR20,000; available 10 May.",
+      "evidence": [
+        "06 p2 P-404",
+        "08 Assets"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 20000,
+        "cash": 0,
+        "assets": 20000,
+        "liabilities": 0,
+        "equity": 20000
+      },
+      "effectBasis": "Correction from marketing expense before depreciation.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D045",
+      "aiProposal": "Expense EUR10,000 belt and calibration restoring normal condition.",
+      "evidence": [
+        "06 p2 R-771",
+        "08 Assets"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -10000,
+        "cash": 0,
+        "assets": -10000,
+        "liabilities": 0,
+        "equity": -10000
+      },
+      "effectBasis": "Correction from improper capitalization; cash already paid.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D046",
+      "aiProposal": "Treat EUR70,000 personal villa payment as owner distribution. No supported business asset.",
+      "evidence": [
+        "09 p1",
+        "02 VILLA",
+        "10 p2"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 70000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "effectBasis": "Reclassification from expense to distribution increases profit but distribution offsets retained earnings; existing cash payment unchanged.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D047",
+      "aiProposal": "Treat EUR40,000 other personal owner card spending as distribution, not payroll. Founder bonus EUR110,000 duplicates villa plus card, not extra payment.",
+      "evidence": [
+        "09 p1",
+        "07 Payroll founder bonus",
+        "02 OWNERCARD"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 40000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "effectBasis": "Reclassification from expense to distribution; net equity unchanged.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D048",
+      "aiProposal": "Use explicitly stated delivered product consumption EUR405,000 as provisional COGS; flag EUR9,000 mismatch with physical count.",
+      "evidence": [
+        "05 p1-p2",
+        "06 p1"
+      ],
+      "confidence": "low",
+      "statementEffect": {
+        "profit": -405000,
+        "cash": 0,
+        "assets": -405000,
+        "liabilities": 0,
+        "equity": -405000
+      },
+      "effectBasis": "Standalone consumption entry versus inventory retained before consumption; not additive to inventory scenario adjustments. Low confidence reconciliation.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D049",
+      "aiProposal": "Classify EUR80,000 event delivery staff expense as direct service cost, not administration.",
+      "evidence": [
+        "07 Payroll event delivery staff"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "effectBasis": "Reclassification within P&L: gross profit decreases EUR80,000 and administration expense decreases same amount.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D056",
+      "aiProposal": "Recognize EUR24,000 period depreciation as noncash expense; obtain underlying independent schedule.",
+      "evidence": [
+        "08 Assets period depreciation"
+      ],
+      "confidence": "medium",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "effectBasis": "From no depreciation booked; same entry as D074, not additional.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D057",
+      "aiProposal": "Recognize EUR18,000 impairment/write-off of R-17; September evidence confirms August condition.",
+      "evidence": [
+        "04 p2 R-17",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "effectBasis": "From gross receivables without allowance; same entry as D071.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D058",
+      "aiProposal": "Write damaged inventory carrying value EUR22,000 to zero. Do not invent automatic EUR2,000 disposal provision without evidence of present obligation.",
+      "evidence": [
+        "05 p1-p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "effectBasis": "Write-down from undamaged carrying value; same entry as D072; cash disposal forecast separately.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D059",
+      "aiProposal": "Recognize probable employee claim provision EUR25,000, range EUR20,000-EUR30,000.",
+      "evidence": [
+        "09 p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "effectBasis": "Correction from omitted provision; same entry as D073.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D064",
+      "aiProposal": "Recognize accepted NorthStar delivery EUR180,000 revenue; receipt settles full balance.",
+      "evidence": [
+        "04 p1 INV-26012",
+        "02 RCPT-NS"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 180000,
+        "cash": 180000,
+        "assets": 180000,
+        "liabilities": 0,
+        "equity": 180000
+      },
+      "effectBasis": "Gross sale-and-collection effect versus no transaction; related COGS excluded.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D065",
+      "aiProposal": "Recognize delivered Freedom EUR200,000 revenue, EUR142,000 cash, EUR58,000 closing receivable.",
+      "evidence": [
+        "04 p1 INV-26031",
+        "02 RCPT-FF"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 200000,
+        "cash": 142000,
+        "assets": 200000,
+        "liabilities": 0,
+        "equity": 200000
+      },
+      "effectBasis": "Gross sale-and-collection versus no transaction; excludes COGS.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D066",
+      "aiProposal": "Recognize completed Phoenix event EUR100,000 revenue, EUR70,000 cash and EUR30,000 receivable.",
+      "evidence": [
+        "04 p1 INV-26047",
+        "02 RCPT-PHX"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 100000,
+        "cash": 70000,
+        "assets": 100000,
+        "liabilities": 0,
+        "equity": 100000
+      },
+      "effectBasis": "Gross completed-service-and-collection versus no transaction; excludes costs.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D067",
+      "aiProposal": "Recognize Liberty delivered order EUR120,000 revenue, EUR95,000 cash and EUR25,000 receivable.",
+      "evidence": [
+        "04 p1 INV-26063",
+        "02 RCPT-LIB"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 120000,
+        "cash": 95000,
+        "assets": 120000,
+        "liabilities": 0,
+        "equity": 120000
+      },
+      "effectBasis": "Gross sale-and-collection versus no transaction; excludes costs.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D068",
+      "aiProposal": "No August revenue for September events. EUR90,000 cash is contract liability.",
+      "evidence": [
+        "04 p2",
+        "03 CRM FUT-01/FUT-02"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "effectBasis": "Same correction as D041, not additive.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D071",
+      "aiProposal": "R-17 EUR18,000 has no expected recovery; net known current-period receivables EUR168,000.",
+      "evidence": [
+        "03 CRM WEB-NCB",
+        "04 p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "effectBasis": "Same impairment as D057; net AR assumes opening receivables fully collected.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D072",
+      "aiProposal": "Write off EUR22,000. Disposal cost EUR2,000 is future cash exposure; assess present obligation before accruing.",
+      "evidence": [
+        "05 p1-p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "effectBasis": "Same loss as D058. Additional disposal provision scenario would reduce profit/equity EUR2,000 and increase liabilities EUR2,000.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D073",
+      "aiProposal": "Provision EUR25,000, not zero or automatically midpoint; external counsel gives explicit best estimate.",
+      "evidence": [
+        "09 p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "effectBasis": "Same provision as D059; sensitivity +/-EUR5,000 versus best estimate.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D074",
+      "aiProposal": "Use EUR24,000 provisional depreciation. Closing accumulated depreciation EUR69,000, PPE net EUR191,000.",
+      "evidence": [
+        "08 Assets",
+        "06 p2"
+      ],
+      "confidence": "medium",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "effectBasis": "Same depreciation as D056; missing asset-specific useful lives and underlying schedule prevent independent recomputation.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D075",
+      "aiProposal": "Physical usable count is EUR121,000, but opening80,000+purchases459,000-consumption405,000-writeoff22,000 gives EUR112,000. Keep EUR112,000 as clearly provisional roll-forward scenario, disclose EUR9,000 unresolved count difference; do not invent purchase, opening stock or COGS adjustment.",
+      "evidence": [
+        "05 p1-p2",
+        "06 p1"
+      ],
+      "confidence": "low",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": null,
+        "liabilities": 0,
+        "equity": null
+      },
+      "effectBasis": "No final numeric correction can be certified: selecting count121,000 and deriving COGS396,000 instead increases inventory/profit/equity EUR9,000 over roll-forward scenario.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D091",
+      "aiProposal": "Do not approve accounts as fully corrected until missing opening balances, insurance and EUR9,000 inventory contradiction are resolved. Board can review provisional scenarios; valuation/earn-out must await verified accounts.",
+      "evidence": [
+        "01 management P&L",
+        "05 p1-p2",
+        "07 Payroll",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "effectBasis": "Governance recommendation has no journal effect.",
+      "studentCertification": "pending"
+    },
+    {
+      "id": "D100",
+      "aiProposal": "Reject management EUR312,000 profit for earn-out. Known-cost provisional profit EUR65,000 (roll-forward inventory) or EUR74,000 (count-derived COGS), before unknown insurance or additional obligations.",
+      "evidence": [
+        "01 Management P&L",
+        "02 bank",
+        "05 p1-p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "effectBasis": "Decision itself has no journal effect; management-profit reduction EUR247,000 or EUR238,000 is conditional aggregate, not this decision journal.",
+      "studentCertification": "pending"
+    }
+  ],
+  "schedules": {
+    "revenue": {
+      "delivered": 960000,
+      "futureDeposits": 90000,
+      "currentDeliveredCollections": 774000,
+      "openingARcollection": 35000,
+      "totalCustomerCash": 899000,
+      "knownGrossAR": 186000,
+      "impairment": 18000,
+      "knownNetAR": 168000,
+      "openingARWarning": "EUR35,000 collected does not establish total opening AR; residual opening balances not supplied."
+    },
+    "inventory": {
+      "opening": 80000,
+      "purchases": 459000,
+      "statedConsumption": 405000,
+      "damagedWriteoff": 22000,
+      "rollForwardClosing": 112000,
+      "systemGrossCount": 143000,
+      "usableCount": 121000,
+      "unresolvedDifference": 9000,
+      "countDerivedCOGS": 396000
+    },
+    "payroll": {
+      "directEvents": 80000,
+      "sales": 72000,
+      "office": 96000,
+      "expense": 248000,
+      "cash": 231000,
+      "openingLiability": 15000,
+      "closingLiability": 32000,
+      "monthlyWarning": "Only Jan-Aug aggregate; individual January through August amounts cannot be reconstructed."
+    },
+    "suppliers": {
+      "purchases": 459000,
+      "cash": 378000,
+      "closingConfirmed": 126000,
+      "impliedOpening": 45000,
+      "warning": "Opening EUR45,000 inferred assuming no other movements, concentrated Event Things: cash100,000 versus current invoices settled55,000."
+    },
+    "operatingExpenses": {
+      "rent": 48000,
+      "marketing": 55000,
+      "software": 16000,
+      "utilities": 12000,
+      "repair": 10000,
+      "insurance": null,
+      "insuranceWarning": "No insurance movement, policy, opening prepayment or ending prepayment supplied; cannot certify zero."
+    },
+    "ppe": {
+      "openingCost": 180000,
+      "additions": 80000,
+      "closingCost": 260000,
+      "openingAccumulatedDepreciation": 45000,
+      "periodDepreciation": 24000,
+      "closingAccumulatedDepreciation": 69000,
+      "net": 191000
+    },
+    "debt": {
+      "opening": 100000,
+      "advance": 50000,
+      "principalPaid": 19000,
+      "closing": 131000,
+      "interestExpense": 12000,
+      "interestPaid": 10000,
+      "interestPayable": 2000
+    },
+    "equity": {
+      "distributions": 110000,
+      "openingConditional": 170000,
+      "closingConditionalRollforward": 125000,
+      "closingConditionalCount": 134000,
+      "warning": "Opening equity is inferred conditional on complete opening AR35,000, supplier AP45,000, no unknown insurance/assets/liabilities. Do not present as evidenced opening equity."
+    }
+  },
+  "statements": {
+    "status": "Conditional scenarios, not certified final accounts",
+    "profitAndLoss": {
+      "revenue": 960000,
+      "productCOGS": 405000,
+      "servicePayroll": 80000,
+      "grossProfit": 475000,
+      "salesAndOfficePayroll": 168000,
+      "otherCashOpex": 141000,
+      "depreciation": 24000,
+      "badDebt": 18000,
+      "inventoryWriteoff": 22000,
+      "legalProvision": 25000,
+      "interest": 12000,
+      "profitBeforeUnknownInsurance": 65000,
+      "countScenarioProfitBeforeUnknownInsurance": 74000
+    },
+    "cashFlow": {
+      "customerReceipts": 899000,
+      "supplierPayments": -378000,
+      "payrollPayments": -231000,
+      "rentMarketingSoftwareUtilitiesRepair": -141000,
+      "interestPaid": -10000,
+      "operating": 139000,
+      "investing": -80000,
+      "financing": -79000,
+      "change": -20000,
+      "openingCash": 80000,
+      "closingCash": 60000
+    },
+    "balanceSheetRollforwardConditional": {
+      "cash": 60000,
+      "receivablesNet": 168000,
+      "inventory": 112000,
+      "ppeNet": 191000,
+      "assets": 531000,
+      "supplierPayables": 126000,
+      "payrollAccrual": 32000,
+      "contractLiabilities": 90000,
+      "debt": 131000,
+      "interestPayable": 2000,
+      "legalProvision": 25000,
+      "liabilities": 406000,
+      "equityConditional": 125000,
+      "warning": "Balances only on explicitly stated opening completeness assumptions, not proof of missing balances."
+    }
+  },
+  "missingEvidence": [
+    "Opening trial balance and equity",
+    "Opening receivables total and residual debtors",
+    "Insurance policy, payment and prepayment balances",
+    "EUR9,000 inventory discrepancy explanation",
+    "Individual monthly payroll allocation",
+    "Underlying independent depreciation schedule and asset lives",
+    "Loan maturity/current-versus-noncurrent classification",
+    "Evidence of present legal/constructive obligation for EUR2,000 future disposal",
+    "Original villa reservation/payment linkage: embedded image dates2024 whereas bank payment2026"
+  ],
+  "boardRecommendation": "Continue core operations conditionally under weekly 13-week cash forecast; freeze owner card, separate deposits, recover receivables/stop insolvent credit, verify and dispose damaged stock, investigate overrides and supplier reconciliation. Cash60,000 below contract deposits90,000; monitor near-term obligations; do not certify solvency without debt maturities and cash forecasts. Reject earn-out based on management profit.",
+  "imageInspection": {
+    "method": "pypdf extracted embedded images, all three inspected visually",
+    "05 p1": "Photograph of wet basement stock; no further amounts",
+    "06 p2": "Photograph of packaging machine; plate year2023 is manufacturing/model evidence, does not contradict 2026 acquisition by itself",
+    "09 p2": "Villa reservation image states check-in12Aug2024 and check-out26Aug2024, EUR70,000, card A J Carter; bank records 2026 payment. Preserve date/provenance inconsistency, seek original reservation and transaction linkage. Personal-use classification supported independently by narrative and bank."
+  }
+}

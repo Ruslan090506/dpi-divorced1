@@ -1,0 +1,670 @@
+{
+  "caseId": "DPI-HT-01",
+  "agent": "Agent 2 independent original-evidence analysis",
+  "independence": "No Agent 1 conclusions read before completion. Read originals and my own extracted source only.",
+  "templateCounts": {
+    "total": 100,
+    "material": 25,
+    "operational": 75
+  },
+  "studentCertification": "pending actual student review",
+  "materialJudgments": [
+    {
+      "id": "D041",
+      "question": "Classify September customer deposits.",
+      "independentProposal": "Defer EUR 90000 as contract liabilities, no August revenue.",
+      "reasoning": "Signed September performance dates and no delivery prevail over management cash-is-sales claim.",
+      "evidence": [
+        "04 p2",
+        "03 CRM FUT-01/FUT-02",
+        "02 DEP-NB/DEP-FF2"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D042",
+      "question": "Classify New bank borrowing.",
+      "independentProposal": "Recognize EUR 50000 bank borrowing as debt and financing receipt.",
+      "reasoning": "Repayment obligation is explicit; not strategic income.",
+      "evidence": [
+        "09 p1",
+        "02 LOAN-ADV"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -50000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 50000,
+        "equity": -50000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D043",
+      "question": "Classify Packaging machine.",
+      "independentProposal": "Capitalize EUR 60000 machine; investing cash outflow.",
+      "reasoning": "Installed and available 10 May; creates multi-period productive resource. Depreciation already included in EUR 24000 total estimate, do not add an invented amount.",
+      "evidence": [
+        "06 p2 A-910",
+        "08 Assets"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 60000,
+        "cash": 0,
+        "assets": 60000,
+        "liabilities": 0,
+        "equity": 60000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D044",
+      "question": "Classify Photo booth.",
+      "independentProposal": "Capitalize EUR 20000 booth; investing cash outflow.",
+      "reasoning": "Available 10 May; durable resource rather than marketing expense.",
+      "evidence": [
+        "06 p2 P-404",
+        "08 Assets"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 20000,
+        "cash": 0,
+        "assets": 20000,
+        "liabilities": 0,
+        "equity": 20000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D045",
+      "question": "Classify Machine belt and calibration.",
+      "independentProposal": "Expense EUR 10000 repair in operating costs.",
+      "reasoning": "Restores normal condition without added capacity or life; no capital asset.",
+      "evidence": [
+        "06 p2 R-771",
+        "02 REPAIR"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -10000,
+        "cash": 0,
+        "assets": -10000,
+        "liabilities": 0,
+        "equity": -10000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D046",
+      "question": "Classify Owner villa deposit.",
+      "independentProposal": "Treat EUR 70000 villa as distribution, financing outflow.",
+      "reasoning": "Personal name and no business purpose; do not duplicate founder bonus. Embedded image dates say August 2024, conflicting with 2026 bank. Investigate invoice provenance, but bank and narrative support 2026 owner withdrawal.",
+      "evidence": [
+        "09 p1 and p2 embedded photograph",
+        "02 VILLA",
+        "07 Payroll"
+      ],
+      "confidence": "medium",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -70000,
+        "assets": -70000,
+        "liabilities": 0,
+        "equity": -70000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D047",
+      "question": "Classify Owner card spending.",
+      "independentProposal": "Treat EUR 40000 owner card as distribution, financing outflow.",
+      "reasoning": "No genuine business purpose supported; EUR 110000 bonus duplicates villa and card rather than extra payroll or cash.",
+      "evidence": [
+        "09 p1",
+        "07 Payroll",
+        "02 OWNERCARD"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -40000,
+        "assets": -40000,
+        "liabilities": 0,
+        "equity": -40000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D048",
+      "question": "Classify Physical product materials consumed.",
+      "independentProposal": "Recognize EUR 405000 physical materials consumed as direct COGS provisionally.",
+      "reasoning": "Explicit consumption figure; conflicts by EUR 9000 with counted ending stock and purchases/opening inventory. Preserve discrepancy; do not silently force COGS to EUR 396000.",
+      "evidence": [
+        "05 p1-p2",
+        "06 p1"
+      ],
+      "confidence": "medium",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -405000,
+        "cash": 0,
+        "assets": -405000,
+        "liabilities": 0,
+        "equity": -405000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D049",
+      "question": "Classify Event staff payroll.",
+      "independentProposal": "Classify EUR 80000 event payroll as direct service COGS.",
+      "reasoning": "Staff deliver paid events; cash EUR 75000 does not determine expense.",
+      "evidence": [
+        "07 Payroll"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D056",
+      "question": "Classify Depreciation.",
+      "independentProposal": "Recognize EUR 24000 noncash depreciation, provisionally operating expense.",
+      "reasoning": "Independent schedule estimate is reported in workbook but underlying schedule/lives absent. Do not invent allocation among product and service costs.",
+      "evidence": [
+        "08 Assets"
+      ],
+      "confidence": "medium",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D057",
+      "question": "Classify Bad receivable.",
+      "independentProposal": "Write off or fully allow EUR 18000 R-17 receivable; expense bad debt.",
+      "reasoning": "Liquidation confirms reporting-date non-recovery; not a sales return merely because labelled Return R-17.",
+      "evidence": [
+        "04 p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D058",
+      "question": "Classify Damaged stock.",
+      "independentProposal": "Write damaged inventory down EUR 22000 to zero; disclose EUR 2000 disposal estimate separately.",
+      "reasoning": "No saleable value. Disposal quote alone does not demonstrate unavoidable reporting-date obligation; no extra provision in base pending obligation evidence.",
+      "evidence": [
+        "05 p1-p2",
+        "11 p1"
+      ],
+      "confidence": "medium",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D059",
+      "question": "Classify Probable legal claim.",
+      "independentProposal": "Recognize EUR 25000 legal expense and provision.",
+      "reasoning": "External counsel probable obligation; range 20000-30000, best estimate 25000. No cash paid.",
+      "evidence": [
+        "09 p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D064",
+      "question": "Classify Delivered NorthStar contract.",
+      "independentProposal": "Recognize NorthStar revenue EUR 180000, fully collected.",
+      "reasoning": "Signed delivered and accepted contract; alias matches amount/date in bank.",
+      "evidence": [
+        "04 p1 INV-26012",
+        "02 RCPT-NS",
+        "03 C-001"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 180000,
+        "cash": 180000,
+        "assets": 180000,
+        "liabilities": 0,
+        "equity": 180000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D065",
+      "question": "Classify Delivered Freedom contract.",
+      "independentProposal": "Recognize Freedom revenue EUR 200000 and receivable EUR 58000.",
+      "reasoning": "Acceptance supports full earned revenue despite collection EUR 142000. No specific impairment evidence for this balance.",
+      "evidence": [
+        "04 p1 INV-26031",
+        "02 RCPT-FF",
+        "03 C-002"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 200000,
+        "cash": 142000,
+        "assets": 200000,
+        "liabilities": 0,
+        "equity": 200000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D066",
+      "question": "Classify Completed Phoenix event.",
+      "independentProposal": "Recognize Phoenix event revenue EUR 100000 and receivable EUR 30000.",
+      "reasoning": "Completed April event and customer acceptance email support recognition; alias HR/People should remain traceable.",
+      "evidence": [
+        "04 p1 INV-26047",
+        "02 RCPT-PHX",
+        "03 C-003"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 100000,
+        "cash": 70000,
+        "assets": 100000,
+        "liabilities": 0,
+        "equity": 100000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D067",
+      "question": "Classify Delivered Liberty order.",
+      "independentProposal": "Recognize Liberty revenue EUR 120000 and receivable EUR 25000.",
+      "reasoning": "Delivered mixed order and full acceptance; no evidence allocating mixed revenue by product.",
+      "evidence": [
+        "04 p1 INV-26063",
+        "02 RCPT-LIB",
+        "03 C-004"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 120000,
+        "cash": 95000,
+        "assets": 120000,
+        "liabilities": 0,
+        "equity": 120000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D068",
+      "question": "Classify Undelivered September events.",
+      "independentProposal": "Recognize no September-event revenue at August; contract liability EUR 90000.",
+      "reasoning": "Same deposits as D041, not an additional adjustment. Cash is received but performance remains due.",
+      "evidence": [
+        "04 p2",
+        "03 FUT-01/FUT-02"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -90000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 90000,
+        "equity": -90000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D071",
+      "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
+      "independentProposal": "Closing specific bad-debt allowance/write-off EUR 18000; net known receivables EUR 168000.",
+      "reasoning": "Gross known current receivables EUR 186000 less R-17. Opening AR minimum EUR 35000 inferred from settlement, not complete confirmed ledger.",
+      "evidence": [
+        "03 CRM",
+        "04 p2",
+        "11 p1",
+        "02 RCPT-001"
+      ],
+      "confidence": "medium",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "assets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D072",
+      "question": "Estimate Damaged inventory write-off and document the basis.",
+      "independentProposal": "Damaged inventory write-off EUR 22000; disposal exposure EUR 2000 additional.",
+      "reasoning": "Do not net disposal against already-zero stock; provision only if present obligation established. No forecast payment is current cash flow.",
+      "evidence": [
+        "05 p1-p2",
+        "11 p1"
+      ],
+      "confidence": "medium",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "assets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D073",
+      "question": "Estimate Legal provision and document the basis.",
+      "independentProposal": "Legal provision EUR 25000, sensitivity EUR 20000-30000.",
+      "reasoning": "External best estimate preferred over management omission; plus/minus 5000 expense affects profit/equity oppositely to liabilities.",
+      "evidence": [
+        "09 p2",
+        "11 p1"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D074",
+      "question": "Estimate Period depreciation and document the basis.",
+      "independentProposal": "Period depreciation EUR 24000, accumulated EUR 69000.",
+      "reasoning": "Opening EUR 45000 plus reported independent estimate. Missing underlying asset life schedule limits reproducibility.",
+      "evidence": [
+        "08 Assets"
+      ],
+      "confidence": "medium",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "assets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D075",
+      "question": "Estimate Closing inventory and document the basis.",
+      "independentProposal": "Provisional roll-forward inventory EUR 112000; counted recoverable stock EUR 121000 remains competing evidence.",
+      "reasoning": "80000+459000-405000-22000=112000. Count 79000+42000=121000. EUR 9000 gap unresolved: could be opening stock, purchase, consumption or count error. Do not certify either as proven.",
+      "evidence": [
+        "05 p1-p2",
+        "06 p1"
+      ],
+      "confidence": "low",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": null,
+        "cash": 0,
+        "assets": -9000,
+        "liabilities": null,
+        "equity": null
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D091",
+      "question": "Approve corrected accounts before valuation",
+      "independentProposal": "Approve only provisional reconstruction for discussion; withhold final certified valuation accounts pending investigation/student review.",
+      "reasoning": "Insurance evidence, opening balances, inventory gap and underlying depreciation schedule remain missing. Arithmetic balance is not proof.",
+      "evidence": [
+        "01 assignment",
+        "05",
+        "07",
+        "08",
+        "09",
+        "template insurance decisions"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    },
+    {
+      "id": "D100",
+      "question": "Use claimed management profit for earn-out",
+      "independentProposal": "Reject EUR 312000 management profit as earn-out basis; use verified contractual metric after corrections.",
+      "reasoning": "Management includes deposits and borrowing, omits impairments/accruals and uses approximate expenses. Provisional profit EUR 65000 subject to missing insurance and stock uncertainty; earn-out contract not supplied.",
+      "evidence": [
+        "01 management workbook",
+        "04",
+        "05",
+        "09",
+        "11"
+      ],
+      "confidence": "high",
+      "studentCertification": "pending",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "assets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "statementEffectBasis": "Individual effect, not additive across overlapping decision IDs. D041/D042/D043/D044/D045/D068 versus stated erroneous classification; D046/D047 original distribution; D048 original materials expense; D049 functional reclassification of already recognized payroll; depreciation/impairment/provision versus omission; D064-67 original revenue/collection, before associated costs; D075 assets difference between competing closing stock, counterpart unknown; D091/D100 recommendation creates no new entry."
+    }
+  ],
+  "statements": {
+    "basis": "Provisional known-evidence scenario; no insurance amount invented, no disposal obligation assumed, inventory EUR 112000 roll-forward; opening balances inferred and incomplete.",
+    "profitAndLoss": {
+      "revenue": 960000,
+      "physicalCOGS": 405000,
+      "serviceDirectPayroll": 80000,
+      "grossProfit": 475000,
+      "salesPayroll": 72000,
+      "officePayroll": 96000,
+      "rent": 48000,
+      "marketing": 55000,
+      "software": 16000,
+      "utilities": 12000,
+      "repairs": 10000,
+      "depreciation": 24000,
+      "badDebt": 18000,
+      "inventoryWriteOff": 22000,
+      "legalProvision": 25000,
+      "operatingProfit": 77000,
+      "interestExpense": 12000,
+      "netProfit": 65000,
+      "insuranceExpense": null
+    },
+    "cashFlow": {
+      "openingCash": 80000,
+      "currentSalesCollections": 774000,
+      "openingARCollection": 35000,
+      "customerDeposits": 90000,
+      "supplierPayments": -378000,
+      "payrollPaid": -231000,
+      "cashOperatingCosts": -141000,
+      "interestPaidOperating": -10000,
+      "operatingCashFlow": 139000,
+      "equipmentInvesting": -80000,
+      "borrowing": 50000,
+      "principalRepaid": -19000,
+      "ownerDistributions": -110000,
+      "financingCashFlow": -79000,
+      "netChange": -20000,
+      "closingCash": 60000
+    },
+    "balanceSheet": {
+      "cash": 60000,
+      "receivablesNet": 168000,
+      "inventory": 112000,
+      "PPECost": 260000,
+      "accumulatedDepreciation": 69000,
+      "PPENet": 191000,
+      "totalAssets": 531000,
+      "supplierPayables": 126000,
+      "payrollPayable": 32000,
+      "contractLiabilities": 90000,
+      "loanPrincipal": 131000,
+      "interestPayable": 2000,
+      "legalProvision": 25000,
+      "totalLiabilities": 406000,
+      "residualEquity": 125000,
+      "openingEquityConditional": 170000,
+      "profit": 65000,
+      "distributions": 110000,
+      "liabilitiesAndEquity": 531000,
+      "warning": "Balances only within expressly disclosed completeness assumptions; inferred equity is not evidence of actual share capital or retained earnings."
+    }
+  },
+  "schedules": {
+    "revenue": [
+      [
+        "NorthStar",
+        180000,
+        180000,
+        0
+      ],
+      [
+        "Freedom",
+        200000,
+        142000,
+        58000
+      ],
+      [
+        "Phoenix",
+        100000,
+        70000,
+        30000
+      ],
+      [
+        "Liberty",
+        120000,
+        95000,
+        25000
+      ],
+      [
+        "WEB FSB",
+        270000,
+        250000,
+        20000
+      ],
+      [
+        "WEB NCB",
+        90000,
+        37000,
+        53000
+      ]
+    ],
+    "receivables": "Conditional opening 35000 + revenue 960000 - earned-sales collections 809000 - writeoff 18000 = 168000. Deposits 90000 excluded from AR collections.",
+    "supplierPayables": "Opening AP inferred 45000 + purchases 459000 - payments 378000 = 126000. Box/Glass/Print current payments equal 105000/92000/81000. Event invoice114000 less close59000 =55000 current purchase payment; bank100000 leaves45000 presumed opening AP, unconfirmed.",
+    "payroll": "15000 opening +248000 expense -231000 cash =32000 close. Monthly breakdown absent; no eight invented monthly numbers. Founder110000 excluded duplicate owner payments.",
+    "PPE": "180000+80000=260000 cost;45000+24000=69000 accumulated depreciation; net191000. Repair10000 expensed.",
+    "debt": "100000+50000-19000=131000 principal.12000-10000=2000 interest payable, external confirmation agrees.",
+    "insurance": "No policy, premium, prepaid balance, movement or consumed amount in any supplied source; D034/D060/D078 unresolved, not supported zero.",
+    "equity": "Conditional opening assets330000 less inferred liabilities160000 =170000; plus65000 profit minus110000 distributions=125000. Need opening trial balance to certify."
+  },
+  "uncertainties": [
+    {
+      "issue": "Inventory EUR 9000 contradiction",
+      "base": 112000,
+      "alternative": 121000,
+      "sensitivity": "If consumption is396000 rather than405000, inventory/profit/equity +9000, no cash change. If opening inventory instead89000, closing inventory/opening equity +9000 with no current profit change. Do not automatically book a gain."
+    },
+    {
+      "issue": "Insurance entirely absent",
+      "sensitivity": "Unknown period expense I reduces profit/equity by I; credit prepaid asset or payable depends on missing evidence. No finite range justified."
+    },
+    {
+      "issue": "Disposal EUR 2000 quote versus obligation",
+      "sensitivity": "Base no provision; if reporting-date obligation evidenced, expense/liabilities +2000 and profit/equity -2000; cash unchanged until paid."
+    },
+    {
+      "issue": "Opening balances inferred",
+      "sensitivity": "AR35000/AP45000/opening equity170000 only under no omitted balances/transactions assumption; no share capital breakdown justified."
+    },
+    {
+      "issue": "Legal range",
+      "sensitivity": "EUR20000-30000 produces base profit EUR70000-60000. With disposal provision profit EUR68000-58000. Combined inventory consumption alternative and legal/disposal produces EUR58000-79000 before unknown insurance; this is scenario range, not confidence interval."
+    },
+    {
+      "issue": "Embedded villa image date conflict",
+      "sensitivity": "Photograph says12-26Aug2024, bank payment2026. Preserve mismatch, investigate; do not use illustrative photograph to invent 2024 payment."
+    },
+    {
+      "issue": "Product profitability",
+      "sensitivity": "Mixed Liberty revenue and physical COGS lack allocation. Cannot claim per-product profitability; core business continuation conditional on cash forecast and margin validation."
+    }
+  ],
+  "boardRecommendation": "Continue core operations conditionally with EUR60000 cash, EUR90000 future performance liabilities, EUR126000 suppliers and EUR32000 payroll outstanding. Freeze owner cards, segregate authorization, reconcile bank/subledgers weekly, prepare13-week cash forecast, investigate missing opening/insurance/stock evidence, restrict risky credit and negotiate supplier terms. Do not certify earn-out or accounts until student and board review."
+}

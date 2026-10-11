@@ -1,0 +1,132 @@
+{
+  "files": [
+    {
+      "path": "public/analysis/agent1.json",
+      "url": "/analysis/agent1.json"
+    },
+    {
+      "path": "public/analysis/agent2.json",
+      "url": "/analysis/agent2.json"
+    },
+    {
+      "path": "public/app.js",
+      "url": "/app.js"
+    },
+    {
+      "path": "public/evidence/A01.pdf",
+      "url": "/evidence/A01.pdf"
+    },
+    {
+      "path": "public/evidence/A02.pdf",
+      "url": "/evidence/A02.pdf"
+    },
+    {
+      "path": "public/evidence/E00.pdf",
+      "url": "/evidence/E00.pdf"
+    },
+    {
+      "path": "public/evidence/E01.xlsx",
+      "url": "/evidence/E01.xlsx"
+    },
+    {
+      "path": "public/evidence/E02.csv",
+      "url": "/evidence/E02.csv"
+    },
+    {
+      "path": "public/evidence/E03.xlsx",
+      "url": "/evidence/E03.xlsx"
+    },
+    {
+      "path": "public/evidence/E04.pdf",
+      "url": "/evidence/E04.pdf"
+    },
+    {
+      "path": "public/evidence/E05.pdf",
+      "url": "/evidence/E05.pdf"
+    },
+    {
+      "path": "public/evidence/E06.pdf",
+      "url": "/evidence/E06.pdf"
+    },
+    {
+      "path": "public/evidence/E07.xlsx",
+      "url": "/evidence/E07.xlsx"
+    },
+    {
+      "path": "public/evidence/E08.xlsx",
+      "url": "/evidence/E08.xlsx"
+    },
+    {
+      "path": "public/evidence/E09.pdf",
+      "url": "/evidence/E09.pdf"
+    },
+    {
+      "path": "public/evidence/E10.pdf",
+      "url": "/evidence/E10.pdf"
+    },
+    {
+      "path": "public/evidence/E11.pdf",
+      "url": "/evidence/E11.pdf"
+    },
+    {
+      "path": "public/evidence/S01.json",
+      "url": "/evidence/S01.json"
+    },
+    {
+      "path": "public/evidence/T01.json",
+      "url": "/evidence/T01.json"
+    },
+    {
+      "path": "public/index.html",
+      "url": "/index.html"
+    },
+    {
+      "path": "public/review/index.html",
+      "url": "/review/index.html"
+    },
+    {
+      "path": "public/styles.css",
+      "url": "/styles.css"
+    },
+    {
+      "path": "public/submission.json",
+      "url": "/submission.json"
+    },
+    {
+      "path": "public/package-manifest.json",
+      "url": "/package-manifest.json"
+    },
+    {
+      "path": "package.json",
+      "url": "/deploy/package.json"
+    },
+    {
+      "path": "vercel.json",
+      "url": "/deploy/vercel.json"
+    },
+    {
+      "path": ".gitignore",
+      "url": "/deploy/.gitignore"
+    },
+    {
+      "path": "README.md",
+      "url": "/deploy/README.md"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "url": "/deploy/scripts/build.mjs"
+    },
+    {
+      "path": "scripts/schema.mjs",
+      "url": "/deploy/scripts/schema.mjs"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "url": "/deploy/scripts/serve.mjs"
+    },
+    {
+      "path": "scripts/test.mjs",
+      "url": "/deploy/scripts/test.mjs"
+    }
+  ]
+}
